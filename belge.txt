@@ -1,0 +1,22 @@
+Endüstriyel Üretim Hattı ve Tedarik Zinciri Parametreleri:
+
+1. Üretim Kapasitesi ve Darboğaz (Bottleneck) Kuralları:
+- Ana Montaj Hattı'nın standart kapasitesi saatte 200 birimdir.
+- CNC İstasyonu (Makine B), planlı bakım eksikliği nedeniyle %70 kapasiteyle (saatte 140 birim) çalışmaktadır. Bu durum montaj hattında doğrudan darboğaz yaratır.
+- Darboğaz durumunda, hat dengeleme (line balancing) prosedürü gereği ara stoklar (buffer) devreye alınmalı ve üretim hızı en yavaş istasyona göre senkronize edilmelidir.
+
+2. Tedarik Zinciri ve Gecikme Senaryoları:
+- Tedarikçi A (Hammadde: Alüminyum Kütük), lojistik sorunlar nedeniyle teslimatları 24 saat geciktirirse, güvenlik stoğu (safety stock) sadece 12 saat idare edebilir.
+- Güvenlik stoğu tükendiğinde, üretim hattı tamamen durur (downtime başlar) ve saatlik maliyet kaybı 5.000 TL olarak hesaplanır.
+- Alternatif Tedarikçi C'den acil sipariş verilirse, teslimat süresi 6 saattir ancak hammadde maliyeti %25 artar.
+
+3. Kalite Kontrol ve Hata Oranları:
+- Üretim hattı kapasitesi %90'ın üzerine zorlandığında (over-utilization), kalite kontrol istasyonundaki hata oranı (defect rate) %2'den %5.5'e yükselir.
+- Hatalı ürünlerin yeniden işlenmesi (rework) vardiya başına ekstra 3 saatlik işçilik maliyeti yaratır.
+
+
+  # SORU1
+  # Tedarikçi A teslimatı 24 saat geciktirdi ve aynı anda artan siparişleri yetiştirmek için üretim hattı kapasitesi %95'e zorlandı.
+    Hattaki darboğazı, saatlik maliyet risklerini ve acilen uygulanması gereken eylem planını analiz et.
+
+    
